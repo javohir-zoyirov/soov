@@ -1,0 +1,227 @@
+body{
+  height: 100vh;
+}
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none !important;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 1;
+  gap: 2px;
+  padding: 0 !important;
+}
+.dropdown-content button {
+  color: black;
+  display: block;
+  margin-left: -27px;
+}
+.dropdown1:hover .dropdown-content {
+  display: block !important;
+}
+.fluid{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tom1{
+  position: absolute;
+  top: 5%;
+  left: -10px;
+  z-index: -1;
+}
+.tom2{
+  position: absolute;
+  bottom: 10%;
+  right: -10px;
+  z-index: -1;
+}
+.tom3{
+  position: absolute;
+  bottom: 30%;
+  left:40%;
+  z-index: -1;
+}
+.tom4{
+  position: absolute;
+  top: 15%;
+  right: 50%;
+  z-index: -1;
+}
+.tom5{
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  z-index: -1;
+}
+.tom6{
+  position: absolute;
+  bottom: 40%;
+  left: 15%;
+  z-index: -1;
+}
+.tom7{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: -1;
+}
+.tom8{
+  position: absolute;
+  top: 45%;
+  left: 100%;
+  width: 70px;
+
+  z-index: 1;
+}
+.tom9{
+  position: absolute;
+  top: 33%;
+  left: 30%;
+  z-index: -1;
+}
+.tom10{
+  position: absolute;
+  bottom: 0%;
+  left: 35%;
+  z-index: -1;
+}
+.rotated-video{
+  transform: scaleX(-1);
+  width: 100%;
+}
+.container-fluid .fluid{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+@media (min-width: 250px) and (max-width: 380px) {
+  .text1 {
+    font-size: 24px !important;
+  }
+  .text2{
+    font-size: 16px !important;
+  }
+  .button{
+    font-size: 16px;
+  }
+  .ltr {
+    font-size: 16px ;
+  }
+  .phone{
+    font-size: 16px;
+    /* margin-bottom: 10px; */
+  }
+  .row{
+    text-align: center;
+  }
+  .tgPhone{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+}
+
+@media (min-width: 381px) and (max-width:540px) {
+  .text1 {
+    font-size: 30px !important;
+  }
+  .text2{
+    font-size: 18px !important;
+  }
+  .button{
+    font-size: 15px;
+  }
+  .ltr {
+    font-size: 16px ;
+  }
+  .phone{
+    font-size: 16px;
+    /* margin-bottom: 10px; */
+  }
+  .row{
+    text-align: center;
+  }
+  .tgPhone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+}
+
+@media (min-width: 541px) and (max-width:768px) {
+  .text1 {
+    font-size: 35px !important;
+  }
+  .text2{
+    font-size: 20px !important;
+  }
+  .button{
+    font-size: 20px;
+  }
+  .ltr {
+    font-size: 20px ;
+  }
+  .phone{
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+  }
+  .row{
+    text-align: center;
+  }
+  .tgPhone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+}
+@media (min-width: 769px) and (max-width:1024px) {
+  .text1 {
+    font-size: 40px !important;
+  }
+  .text2{
+    font-size: 18px !important;
+  }
+  .button{
+    font-size: 20px;
+  }
+  .ltr {
+    font-size: 20px ;
+  }
+  .phone{
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+  }
+}
+@media (max-width:800px) {
+   .div1{
+    order: 1;
+   }
+   .div2{
+    order: -1;
+   }
+}
+
+@media (min-width:1024px) {
+  .text1 {
+    font-size: 45px !important;
+  }
+  .text2{
+    font-size: 25px !important;
+  }
+  .button{
+    font-size: 25px;
+  }
+  .ltr {
+    font-size: 25px ;
+  }
+  .phone{
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+  }
+}
