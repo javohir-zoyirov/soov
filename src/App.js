@@ -51,8 +51,8 @@ function App() {
   };
   console.log(order,"order");
   return (
-    <div style={{height:'100vh'}} className="container-fluid fluid d-flex mx-auto flex-column justify-content-between">
-      <div className="d-flex align-items-center justify-content-between mt-4">
+    <div style={{height:'100vh'}} className=" fluid d-flex mx-auto flex-column justify-content-between">
+      <div className="d-flex align-items-center justify-content-between mt-4 container mx-auto">
         <img
           style={{ width: "210px", height: "39px", objectFit: "cover" }}
           src={logo}
@@ -147,13 +147,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-12 col-lg-6 col-md-6 div1 d-flex justify-content-center align-items-center">
+      <div className="row container mx-auto">
+        <div className="col-12 col-lg-7 col-md-6 div1 d-flex justify-content-center align-items-center">
           <div>
             <p style={{ color: "#0763C0" }} className="fw-bold mt-4 text1">
               {t("text1")}
             </p>
-            <p className="fw-bold my-4 text2" style={{ color: "#0763C0" }}>
+            <p className="fw-medium my-4 text2" style={{ color: "#0763C0"}}>
               {t("text2")}
             </p>
             <button
@@ -168,7 +168,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="col-12 col-lg-6 col-md-6 div2 d-flex align-items-center justify-content-center">
+        <div className="col-12 col-lg-5 col-md-6 div2 d-flex align-items-center justify-content-center">
           <video
             className="rotated-video"
             style={{ width: "100%" }}
@@ -180,7 +180,7 @@ function App() {
           </video>
         </div>
       </div>
-      <div className="d-flex align-items-center flex-wrap gap-3 mb-3 tgPhone">
+      <div className="d-flex align-items-center flex-wrap gap-3 mb-3 tgPhone container mx-auto">
         <a
           href="tel:+99833 444-55-50"
           style={{ cursor: "pointer", textDecoration: "none" }}
